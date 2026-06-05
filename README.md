@@ -1,6 +1,6 @@
 # FineTuning-OpenFinance
 
-This repository contains two end-to-end Python tutorials for fine-tuning Qwen 3 into an open-finance assistant using Unsloth + LoRA.
+This repository contains two end-to-end Python tutorials for fine-tuning Qwen3 into an open-finance assistant using Unsloth + LoRA.
 
 ## What is in this repo
 
