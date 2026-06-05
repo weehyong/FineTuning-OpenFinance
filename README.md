@@ -4,10 +4,10 @@ This repository contains two end-to-end Python tutorials for fine-tuning Qwen 3 
 
 ## What is in this repo
 
-- `/tmp/workspace/weehyong/FineTuning-OpenFinance/openfinance-eg2.py`
+- `openfinance-eg2.py`
   - Tutorial script for **Qwen3-0.6B**
   - Uses a smaller sample set (`total_samples=2000`) for faster experimentation
-- `/tmp/workspace/weehyong/FineTuning-OpenFinance/openfinance-eg2-8B.py`
+- `openfinance-eg2-8B.py`
   - Tutorial script for **Qwen3-8B**
   - Uses a larger sample set (`total_samples=20000`) and 8B-oriented LoRA settings
 
@@ -34,7 +34,7 @@ pip install datasets trl transformers huggingface_hub torch
 
 ## How to run
 
-From the repository root (`/tmp/workspace/weehyong/FineTuning-OpenFinance`):
+From the repository root:
 
 ```bash
 python openfinance-eg2.py
